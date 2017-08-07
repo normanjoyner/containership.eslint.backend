@@ -1,0 +1,19 @@
+{
+  "name": "@containership/eslint-config-containership.eslint.backend",
+  "version": "1.0.0",
+  "description": "Containership Backend ESLint",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicktate/containership.eslint.backend.git"
+  },
+  "author": "Containership Developers <developers@containership.io>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/nicktate/containership.eslint.backend/issues"
+  },
+  "homepage": "https://github.com/nicktate/containership.eslint.backend#readme"
+}
