@@ -5,6 +5,9 @@ module.exports = {
         "es6": true,
         "node": true
     },
+    "parserOptions": {
+        "ecmaVersion": 2017
+    },
     "extends": "eslint:recommended",
     "rules": {
         "indent": [
@@ -59,6 +62,10 @@ module.exports = {
         "no-trailing-spaces": 2,
         "space-before-blocks": [2, "always"],
         "no-regex-spaces": 2,
-        "space-before-function-paren": [2, "never"]
+        "space-before-function-paren": [2, {
+            "anonymous": "never",
+            "named": "never",
+            "asyncArrow": "always"
+        }]
     }
 };
