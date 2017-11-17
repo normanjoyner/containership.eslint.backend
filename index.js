@@ -55,7 +55,8 @@ module.exports = {
         ],
         "keyword-spacing": ["error", { "after": true, "before": true, "overrides": {
             "catch": { "after": false },
-            "if": { "after": false }
+            "if": { "after": false },
+            "for": { "after": false }
         }}],
         "no-multi-spaces": 2,
         "no-irregular-whitespace": 2,
