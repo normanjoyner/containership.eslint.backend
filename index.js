@@ -50,6 +50,10 @@ module.exports = {
         "no-octal": 2,
         "no-redeclare": 2,
         "quotes": [2, "single", { "avoidEscape": true, "allowTemplateLiterals": true }],
+        "quote-props": [
+            "error",
+            "as-needed"
+        ],
         "no-octal-escape": 2,
         "strict": [2, "global"],
         "semi": [
